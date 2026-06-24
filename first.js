@@ -83,8 +83,23 @@
 // for (let count = 1; count <= 100; count++){
 //     console.log("Hello Rishabh");
 // }
-for (let num = 0; num<=100; num++) {
-    if (num % 2 === 0 ) {
-        console.log("num =",num);
-    }
+// for (let num = 0; num<=100; num++) {
+//     if (num % 2 === 0 ) {
+//         console.log("num =",num);
+//     }
+// }
+// for (let num = 0; num<=100; num++) {
+//     if (num % 2 !== 0 ) {
+//         console.log("num =",num);
+//     }
+// }
+// Game 
+let answer = 7;
+
+let guess = prompt("Guess the num :");
+
+while (guess != answer) {
+    guess = prompt("You entered wrong no.Guess again :");
 }
+
+console.log("Congratulations,you entered the right answer");
