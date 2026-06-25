@@ -94,12 +94,31 @@
 //     }
 // }
 // Game 
-let answer = 7;
+// let answer = 7;
 
-let guess = prompt("Guess the num :");
+// let guess = prompt("Guess the num :");
 
-while (guess != answer) {
-    guess = prompt("You entered wrong no.Guess again :");
-}
+// while (guess != answer) {
+//     guess = prompt("You entered wrong no.Guess again :");
+// }
 
-console.log("Congratulations,you entered the right answer");
+// console.log("Congratulations,you entered the right answer");
+// let str =  "Rishabh";
+// console.log(str[6]);
+// let obj = {
+//     item: "Laptop",
+//     price: 10,
+// };
+
+
+// let output = `cost of the ${obj.item} is ${obj.price} rupees`;
+// console.log(output)
+// console.log("Hello\nWorld")
+// console.log("Hello\tWorld")
+// let str = "Hello World";
+// console.log(str.slice(1,7));
+// 
+let fullName = prompt("enter your full name without space:");
+
+let Username = "@" + fullName + fullName.length;
+console.log(Username);
