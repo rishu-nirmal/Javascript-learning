@@ -118,7 +118,60 @@
 // let str = "Hello World";
 // console.log(str.slice(1,7));
 // 
-let fullName = prompt("enter your full name without space:");
+// let fullName = prompt("enter your full name without space:");
 
-let Username = "@" + fullName + fullName.length;
-console.log(Username);
+// let Username = "@" + fullName + fullName.length;
+// console.log(Username);
+// let marks = [97,87,67,85,33];
+// console.log(marks);
+// let heroes = ["Ironman","Spiderman","Hulk","Thor","Captain America","Black Panther"];
+
+// // for (let i = 0; i < heroes.length; i++) {
+// //     console.log(heroes[i]);
+// // }
+// for (let hero of heroes) {
+//     console.log(hero);
+
+// let cities = ["Delhi","Mumbai","Chennai","Vijayawada"];
+
+// for (let city of cities) {
+//     console.log(city.toUpperCase());
+// }
+
+// let marks = [85,97,44,37,76,60];
+
+// let sum = 0; 
+
+// for (let val of marks) {
+//     sum += val;
+// }
+
+// let avg = sum / marks.length;
+// console.log(`average marks of the class = ${avg}`);
+// let items = [250 , 645 , 300 , 900 , 50 ];
+
+// for (let i = 0; i < items.length; i++) {
+//     let offer = items[i] / 10;
+//     items[i] -= offer;
+// }
+
+// console.log(items);
+// let foodItems = ["Pizza","Burger","Pasta","Noodles","Sandwich"];
+
+// foodItems.push("Choclate","patties");
+
+// console.log(foodItems);
+// let marvelHeroes = ["Ironman","Spiderman","Hulk","Thor","Captain America","Black Panther"];
+
+// let dcHeroes = ["Superman","Batman"];
+
+// let combineHeroes = marvelHeroes.concat(dcHeroes);
+
+// console.log(combineHeroes);
+let marvelHeroes = ["Ironman","Spiderman","Hulk","Thor","Captain America","Black Panther"];
+
+let val = marvelHeroes.shift();
+
+console.log(marvelHeroes);
+
+console.log(marvelHeroes.slice(1));
