@@ -168,10 +168,57 @@
 // let combineHeroes = marvelHeroes.concat(dcHeroes);
 
 // console.log(combineHeroes);
-let marvelHeroes = ["Ironman","Spiderman","Hulk","Thor","Captain America","Black Panther"];
+// let marvelHeroes = ["Ironman","Spiderman","Hulk","Thor","Captain America","Black Panther"];
 
-let val = marvelHeroes.shift();
+// let val = marvelHeroes.shift();
 
-console.log(marvelHeroes);
+// console.log(marvelHeroes);
 
-console.log(marvelHeroes.slice(1));
+// console.log(marvelHeroes.slice(1));
+// brush up on array methods
+
+// Function 
+
+// function myFunction() {
+//     console.log("Hello World");
+//     console.log("Hello Rishabh");
+// }
+// myFunction();
+// myFunction();
+
+// function sum(a, b) {
+//     console.log(a + b);
+// }
+// const arrowSum = (a, b) => {
+//     console.log(a + b);
+// }
+
+// Question a function that counts the number of vowels in a string
+
+// function countVowels(str) {
+//     let count = 0;
+//     for (const char of str) {
+//         if (
+//             char === 'a' ||
+//             char === 'e' ||
+//             char === 'i' || 
+//             char === 'o' || 
+//             char === 'u'
+//         ) {
+//             count++;
+//         }
+//     }
+//     console.log(count);
+// }
+// For each loop
+// let arr = ["mumbai","delhi","chennai","kolkata","vijayawada"];
+
+// arr.forEach((value) => {
+//     console.log(value.toUpperCase());
+// })
+// Practice problem 1 
+let nums = [25, 35, 45, 55, 65];
+
+nums.forEach((num) => {
+    console.log(num * num);
+});
