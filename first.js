@@ -217,8 +217,56 @@
 //     console.log(value.toUpperCase());
 // })
 // Practice problem 1 
-let nums = [25, 35, 45, 55, 65];
+// let nums = [84,43,94,76,39];
 
-nums.forEach((num) => {
-    console.log(num * num);
-});
+// nums.forEach((num) => {
+//     console.log(num * num);
+// });
+// let nums = [84,43,94,76,39];
+
+// let newArr = nums.map((num) => {
+//     return num*5;
+// }); 
+
+// console.log(newArr);
+
+// let arr = [35, 67, 87 ,35, 98, 98, 45];
+
+// const output = arr.reduce((res, curr) => {
+//     return res + curr;
+// })
+// console.log(output);
+// Practice problem 2
+
+// let marks = [84,43,94,76,39];
+
+// let newArr = marks.filter((marks) => {
+//     return marks > 90;
+// });
+
+// console.log(newArr);
+
+// Practice problem 3
+
+//  A funtion that takes a number as input and returns an array of that number from to 1 to that number and also returns the sum as well as the factorial of that number;
+
+// let num = prompt("Enter any number :");
+
+// let arr = [];
+
+// for (let i = 1; i <= num; i++) {
+//     arr[i-1] =i;
+// }
+// console.log(arr);
+
+// let sum = arr.reduce((res, curr) => {
+//     return res + curr;
+// });
+// console.log("sum: ",sum);
+
+// let factorial = arr.reduce((res, curr) => {
+//     return res * curr;
+// });
+// console.log("factorial: ",factorial);
+
+// # DOM part 1;
