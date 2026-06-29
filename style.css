@@ -1,7 +1,6 @@
-body{
-    background-color: #6495ed;
+.content{
+    color: blue;
 }
-h1{
-    color: red;
-    text-decoration: solid black underline
+.newClass{
+    background-color: red;
 }

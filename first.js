@@ -270,3 +270,50 @@
 // console.log("factorial: ",factorial);
 
 // # DOM part 1;
+
+// let h2 = document.querySelector("h2");
+
+// console.dir(h2.innerText);
+
+// h2.innerText = h2.innerText + " from Apna College students!";
+
+// let divs = document.querySelectorAll(".box");
+
+// // divs[0].innerText = "new value 1";
+// // divs[1].innerText = "Hello World";
+// // divs[2].innerText = "Bonjour!";
+
+// let idx = 1;
+// for (div of divs) {
+//     div.innerText = `new unique value ${idx}`;
+//     idx++;
+// }
+// let div = document.querySelector("div");
+// console.log(div);
+
+// let id = div.getAttribute("div");
+// console.log(id);
+
+// let para = document.querySelector("p");
+// console.log(para.getAttribute("class"));
+// let newHeading = document.createElement("h1");
+// newHeading.innerHTML = "<i>Hi I am new here.</i>";
+
+// document.querySelector("body").prepend(newHeading);
+
+// let para = document.querySelector("p");
+// para.remove();
+// newHeading.remove();
+
+// let newButton = document.createElement("button");
+// newButton.innerText = "Click Me!";
+
+// newButton.style.backgroundColor = "red";
+// newButton.style.color = "white";
+
+// document.querySelector("body").prepend(newButton);
+
+// let para = document.querySelector("p")
+
+
+
