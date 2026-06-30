@@ -314,6 +314,40 @@
 // document.querySelector("body").prepend(newButton);
 
 // let para = document.querySelector("p")
+// let btn = document.querySelector("#btn1");
+
+// // btn1.onclick = () => {
+// //     console.log('button was clicked');
+
+// // };
+
+// // let div = document.querySelector("div");
+
+// // div.onmouseover = () => {
+// //     console.log('You are inside the div');
+// // };
+// btn.addEventListener("click", () => {
+//     console.log("btn was clicked -handler1");
+// });
+
+// btn.addEventListener("click", () => {
+//     console.log("hello world! - handler2");
+// });
 
 
+// btn.removeEventListener("click", handler2);
+// let modeBtn = document.querySelector("#mode");
 
+// let currMode = "light";
+
+// modeBtn.addEventListener("click", () => {
+//     if (currMode === "light") {
+//         currMode = "dark";
+//         document.querySelector("body").style.backgroundColor = "Black";
+//     }else {
+//         currMode = "light";
+//         document.querySelector("body").style.backgroundColor = "White";
+//     }
+
+//     console.log(currMode);
+// });
